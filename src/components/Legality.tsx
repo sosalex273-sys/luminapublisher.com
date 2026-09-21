@@ -45,25 +45,25 @@ export const Legality = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-               <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl w-full max-w-sm">
-                  <h3 className="text-xl font-bold mb-6 text-center border-b border-white/10 pb-4">Profil Perusahaan</h3>
-                  <div className="space-y-4 text-sm text-slate-300">
-                    <div className="flex justify-between">
-                      <span className="opacity-70">Nama Entitas</span>
-                      <span className="font-medium text-white">Almakki Publisher</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="opacity-70">Sektor Bisnis</span>
-                      <span className="font-medium text-white">Penerbitan & Konsultan</span>
-                    </div>
-                    <div className="flex justify-between gap-4">
-                      <span className="opacity-70 shrink-0">Domisili</span>
-                      <span className="font-medium text-white text-right">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
-                    </div>
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl w-full max-w-sm">
+                <h3 className="text-xl font-bold mb-6 text-center border-b border-white/10 pb-4">Profil Perusahaan</h3>
+                <div className="space-y-4 text-sm text-slate-300">
+                  <div className="flex justify-between">
+                    <span className="opacity-70">Nama Entitas</span>
+                    <span className="font-medium text-white">Almakki Publisher</span>
                   </div>
-               </div>
+                  <div className="flex justify-between">
+                    <span className="opacity-70">Sektor Bisnis</span>
+                    <span className="font-medium text-white">Penerbitan & Konsultan</span>
+                  </div>
+                  <div className="flex justify-between gap-4">
+                    <span className="opacity-70 shrink-0">Domisili</span>
+                    <span className="font-medium text-white text-right">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </motion.div>
