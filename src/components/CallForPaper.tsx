@@ -62,7 +62,7 @@ const FlyerCard = ({ imgUrl, onError, onClick }: { imgUrl: string, onError: () =
         <div className="w-5 h-5 bg-primary rounded-md flex items-center justify-center shrink-0">
           <span className="text-white text-[10px] font-black">T</span>
         </div>
-        <span className="text-slate-800 text-[10px] font-black font-jakarta tracking-tighter">Edutran Publisher</span>
+        <span className="text-slate-800 text-[10px] font-black font-jakarta tracking-tighter">Almakki Publisher</span>
       </div>
       <span className="text-[9px] font-semibold text-primary bg-primary/10 px-2 py-0.5 rounded-full">SINTA</span>
     </div>
@@ -78,9 +78,9 @@ const FlyerCard = ({ imgUrl, onError, onClick }: { imgUrl: string, onError: () =
 
     {/* Address/Contact Footer */}
     <div className="w-full bg-sky-950 text-white py-2 px-3 flex flex-col justify-center items-center text-center">
-      <span className="text-[8px] font-bold uppercase tracking-widest text-sky-400 mb-1">Layanan Publikasi Jurnal</span>
-      <span className="text-[9px] font-medium opacity-90 mb-0.5">WhatsApp: +62 831-6772-6255</span>
-      <span className="text-[8px] font-light text-slate-300 leading-tight">Plaza Summarecon Bekasi, Jl. Bulevar Ahmad Yani, Marga Mulya, Kec. Bekasi Utara, Kota Bekasi, Jawa Barat 17142.</span>
+      <span className="text-[8px] font-bold uppercase tracking-widest text-amber-400 mb-1">Layanan Publikasi Jurnal</span>
+      <span className="text-[9px] font-medium opacity-90 mb-0.5">WhatsApp: +62 856-4502-2647</span>
+      <span className="text-[8px] font-light text-slate-300 leading-tight">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
     </div>
   </div>
 );
@@ -207,14 +207,14 @@ export const CallForPaper = () => {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center shrink-0 mb-2">
                   <span className="text-white text-base font-black">T</span>
                 </div>
-                <span className="text-slate-800 text-[12px] font-black font-jakarta tracking-tighter leading-tight text-center">Edutran<br/>Publisher</span>
+                <span className="text-slate-800 text-[12px] font-black font-jakarta tracking-tighter leading-tight text-center">Almakki<br/>Publisher</span>
               </div>
 
               {/* Address Overlay on Zoomed Image */}
               <div className="absolute bottom-0 left-0 w-full bg-sky-950 text-white py-4 px-6 z-10 flex flex-col justify-center items-center text-center rounded-b-lg border-t border-slate-700/50">
-                <span className="text-sm font-bold uppercase tracking-widest text-sky-400 mb-2">Layanan Publikasi Jurnal</span>
-                <span className="text-base font-medium opacity-90 mb-1">WhatsApp: +62 831-6772-6255</span>
-                <span className="text-xs font-light text-slate-300">Plaza Summarecon Bekasi, Jl. Bulevar Ahmad Yani, Marga Mulya, Kec. Bekasi Utara, Kota Bekasi, Jawa Barat 17142.</span>
+                <span className="text-sm font-bold uppercase tracking-widest text-amber-400 mb-2">Layanan Publikasi Jurnal</span>
+                <span className="text-base font-medium opacity-90 mb-1">WhatsApp: +62 856-4502-2647</span>
+                <span className="text-xs font-light text-slate-300">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
               </div>
             </div>
           </motion.div>

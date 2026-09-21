@@ -37,7 +37,7 @@ export const WhyChooseUs = () => {
           className="max-w-2xl mx-auto mb-16"
         >
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold font-jakarta text-slate-900 dark:text-white mb-4">
-            Mengapa Memilih Edutran Publisher?
+            Mengapa Memilih Almakki Publisher?
           </h2>
           <p className="text-sm md:text-lg text-slate-600 dark:text-slate-300">
             Kami menawarkan lebih dari sekadar jasa publikasi. Kami memberikan ketenangan pikiran dan jaminan profesionalisme.
@@ -52,9 +52,9 @@ export const WhyChooseUs = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-8 border border-slate-100 dark:border-slate-800 hover:border-sky-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-sky-500/5 group"
+              className="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-8 border border-slate-100 dark:border-slate-800 hover:border-amber-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-amber-500/5 group"
             >
-              <div className="inline-flex items-center justify-center h-16 w-16 rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-slate-100 dark:border-slate-700 text-sky-500 mb-6 group-hover:bg-sky-500 group-hover:text-white transition-colors duration-300">
+              <div className="inline-flex items-center justify-center h-16 w-16 rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-slate-100 dark:border-slate-700 text-amber-500 mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">{feature.title}</h3>

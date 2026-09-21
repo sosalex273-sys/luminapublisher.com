@@ -9,17 +9,17 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Edutran Publisher - Premium Publishing Company",
+  title: "Almakki Publisher - Premium Publishing Company",
   description: "Layanan publikasi jurnal, buku, dan HKI profesional terbaik.",
-  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "Edutran Publisher"],
-  authors: [{ name: "Edutran Publisher" }],
+  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "Almakki Publisher"],
+  authors: [{ name: "Almakki Publisher" }],
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://edutranpublisher.id",
-    title: "Edutran Publisher - Premium Publishing",
+    url: "https://Almakkipublisher.id",
+    title: "Almakki Publisher - Premium Publishing",
     description: "Layanan publikasi terbaik untuk kebutuhan akademik dan profesional.",
-    siteName: "Edutran Publisher",
+    siteName: "Almakki Publisher",
   },
   robots: {
     index: true,

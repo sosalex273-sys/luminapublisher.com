@@ -37,10 +37,10 @@ export const ThemeToggle = () => {
       onClick={toggleTheme}
       aria-label="Toggle Dark Mode"
       title={isDark ? "Ubah ke Mode Terang" : "Ubah ke Mode Gelap"}
-      className="relative p-2.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-sky-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 shadow-sm border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-sky-500/50 flex items-center justify-center group"
+      className="relative p-2.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-amber-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 shadow-sm border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-500/50 flex items-center justify-center group"
     >
       {isDark ? (
-        <Sun className="w-5 h-5 transition-transform duration-300 group-hover:rotate-45 text-sky-400" />
+        <Sun className="w-5 h-5 transition-transform duration-300 group-hover:rotate-45 text-amber-400" />
       ) : (
         <Moon className="w-5 h-5 transition-transform duration-300 group-hover:-rotate-12 text-slate-700" />
       )}

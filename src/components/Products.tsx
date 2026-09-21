@@ -120,7 +120,7 @@ const GoldBadge = ({ topText, bottomText, iconType }: { topText: string, bottomT
               Scopus
             </text>
             <text x="21" y="-3" fill="url(#goldOuter)" fontSize="5" fontWeight="bold" fontFamily="system-ui, sans-serif">
-              ®
+              Ã‚Â®
             </text>
           </g>
         )}
@@ -165,7 +165,7 @@ const products = [
 ];
 
 export const Products = () => {
-  const waLink = "https://wa.me/6283167726255";
+  const waLink = "https://wa.me/6285645022647";
 
   return (
     <section id="produk" className="py-12 md:py-20 lg:py-28 bg-sky-50/30 dark:bg-slate-950 transition-colors duration-300">
@@ -178,7 +178,7 @@ export const Products = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bg-white dark:bg-slate-900 rounded-3xl p-6 md:p-8 border border-sky-100/50 dark:border-slate-800 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 flex flex-col h-full group"
+              className="bg-white dark:bg-slate-900 rounded-3xl p-6 md:p-8 border border-amber-100/50 dark:border-slate-800 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 flex flex-col h-full group"
             >
               {/* SVG Badge */}
               <div className="flex justify-center mb-8">
@@ -203,7 +203,7 @@ export const Products = () => {
               <div className="mt-auto pt-6">
                 <a
                   href={`/produk#${product.badgeIcon}`}
-                  className="inline-flex items-center gap-1.5 text-sky-600 dark:text-sky-400 text-sm font-bold hover:text-sky-500 transition-colors"
+                  className="inline-flex items-center gap-1.5 text-amber-600 dark:text-amber-400 text-sm font-bold hover:text-amber-500 transition-colors"
                 >
                   Selengkapnya <ArrowRight className="w-4 h-4" />
                 </a>

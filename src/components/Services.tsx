@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, BookOpen, GraduationCap, Globe } from "lucide-react";
 
 export const Services = () => {
-  const waLink = "https://wa.me/6283167726255";
+  const waLink = "https://wa.me/6285645022647";
 
   return (
     <section id="layanan" className="py-12 md:py-24 lg:py-32 bg-white dark:bg-slate-900 transition-colors duration-300">
@@ -16,7 +16,7 @@ export const Services = () => {
             viewport={{ once: true }}
             className="text-slate-500 dark:text-slate-400 font-medium text-sm md:text-base mb-2"
           >
-            Manfaatkan Segera Layanan Edutran Publisher
+            Manfaatkan Segera Layanan Almakki Publisher
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
@@ -42,7 +42,7 @@ export const Services = () => {
               Terbitkan Artikel<br />Ilmiah di Tingkat<br />Nasional
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-300 text-center mb-8 leading-relaxed">
-              Edutran Publisher menyediakan layanan bimbingan publikasi artikel jurnal di tingkat Nasional (Garuda, Moraref dan Sinta 1-6) dengan kualitas unggul.
+              Almakki Publisher menyediakan layanan bimbingan publikasi artikel jurnal di tingkat Nasional (Garuda, Moraref dan Sinta 1-6) dengan kualitas unggul.
             </p>
             
             <div className="bg-white dark:bg-slate-900/60 p-4 rounded-lg mb-8 flex flex-col justify-center gap-4 shadow-sm min-h-[120px] w-full border border-slate-200 dark:border-slate-700">
@@ -89,7 +89,7 @@ export const Services = () => {
                 href={waLink}
                 target="_blank"
                 rel="noreferrer"
-                className="block w-full text-center py-3.5 rounded-xl bg-slate-900 dark:bg-sky-600 text-white font-medium hover:bg-slate-800 dark:hover:bg-sky-700 transition-colors shadow-md"
+                className="block w-full text-center py-3.5 rounded-xl bg-slate-900 dark:bg-amber-600 text-white font-medium hover:bg-slate-800 dark:hover:bg-amber-700 transition-colors shadow-md"
               >
                 Publikasikan Sekarang
               </a>
@@ -111,14 +111,14 @@ export const Services = () => {
               Terbitkan Artikel<br />Ilmiah di Tingkat<br />Internasional
             </h3>
             <p className="text-sm text-white/90 text-center mb-8 leading-relaxed relative z-10">
-              Edutran Publisher memberikan layanan publikasi artikel jurnal di tingkat Internasional Bereputasi tinggi (Scopus, WOS, dll) dengan pendampingan ekstra.
+              Almakki Publisher memberikan layanan publikasi artikel jurnal di tingkat Internasional Bereputasi tinggi (Scopus, WOS, dll) dengan pendampingan ekstra.
             </p>
             
             <div className="bg-white p-4 rounded-lg mb-8 flex flex-col justify-center gap-4 shadow-sm min-h-[160px] w-full relative z-10 border border-slate-200">
               {/* Row 1: Scopus */}
               <div className="flex justify-center w-full mb-2">
                 <span className="font-sans text-[#e67e22] text-4xl tracking-tighter font-semibold">
-                  Scopus<sup className="text-sm font-normal">®</sup>
+                  Scopus<sup className="text-sm font-normal">Ã‚Â®</sup>
                 </span>
               </div>
               
@@ -126,7 +126,7 @@ export const Services = () => {
               <div className="flex justify-between items-center w-full px-1">
                 <div className="flex items-center gap-1">
                   <Globe className="w-3 h-3 text-[#27ae60]" />
-                  <span className="text-[#34495e] text-[10px] font-bold">WorldCat<sup className="text-[6px]">®</sup></span>
+                  <span className="text-[#34495e] text-[10px] font-bold">WorldCat<sup className="text-[6px]">Ã‚Â®</sup></span>
                 </div>
                 <div className="flex items-center gap-1">
                   <span className="text-[#c0392b] font-serif font-bold text-xs italic">ICI</span>
@@ -211,12 +211,12 @@ export const Services = () => {
               Konsultasi Karir<br />untuk Dosen /<br />Tenaga Pengajar
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-300 text-center mb-8 leading-relaxed">
-              Edutran Publisher menawarkan layanan pendampingan karir bagi Dosen terkait dengan pemenuhan angka kredit dan proyeksi kenaikan JAD.
+              Almakki Publisher menawarkan layanan pendampingan karir bagi Dosen terkait dengan pemenuhan angka kredit dan proyeksi kenaikan JAD.
             </p>
             
             <div className="mb-8 flex items-center justify-center p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-700 mt-auto">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-sky-500/10 rounded-full flex items-center justify-center text-sky-500 shrink-0">
+                <div className="w-12 h-12 bg-amber-500/10 rounded-full flex items-center justify-center text-amber-500 shrink-0">
                   <GraduationCap className="w-6 h-6" />
                 </div>
                 <div>
@@ -231,7 +231,7 @@ export const Services = () => {
                 href={waLink}
                 target="_blank"
                 rel="noreferrer"
-                className="block w-full text-center py-3.5 rounded-xl bg-slate-900 dark:bg-sky-600 text-white font-medium hover:bg-slate-800 dark:hover:bg-sky-700 transition-colors shadow-md"
+                className="block w-full text-center py-3.5 rounded-xl bg-slate-900 dark:bg-amber-600 text-white font-medium hover:bg-slate-800 dark:hover:bg-amber-700 transition-colors shadow-md"
               >
                 Konsultasi Sekarang
               </a>

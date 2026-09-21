@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/images/asasasssas.png";
+import logo from "../../public/images/almk.png";
 import { Menu, X, BookOpen } from "lucide-react";
 import { Button } from "./ui/button";
 import { ThemeToggle } from "./ThemeToggle";
@@ -39,12 +39,15 @@ export const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <Link href="#" className="flex items-center py-1">
+          <Link href="#" className="flex items-center gap-3 py-1">
             <Image 
               src={logo} 
-              alt="Edutran Publisher Logo" 
-              className="h-11 md:h-13 lg:h-15 w-auto object-contain transition-transform hover:scale-105"
+              alt="Almakki Publisher Logo" 
+              className="h-14 md:h-16 lg:h-20 w-auto object-contain transition-transform hover:scale-105"
             />
+            <span className="font-jakarta font-bold text-lg md:text-xl lg:text-2xl text-slate-900 dark:text-white tracking-tight whitespace-nowrap">
+              Almakki Publisher
+            </span>
           </Link>
 
           {/* Desktop Nav */}
@@ -54,14 +57,14 @@ export const Header = () => {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-sm lg:text-base font-semibold text-slate-200 hover:text-sky-400 transition-colors"
+                    className="text-sm lg:text-base font-semibold text-slate-200 hover:text-amber-400 transition-colors"
                   >
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <Button className="rounded-full px-6 py-2 text-sm lg:text-base font-bold bg-sky-500 hover:bg-sky-600 text-slate-950 shadow-md shadow-sky-500/20 transition-transform hover:scale-105" onClick={() => window.open('https://wa.me/6283167726255', '_blank')}>
+            <Button className="rounded-full px-6 py-2 text-sm lg:text-base font-bold bg-amber-500 hover:bg-amber-600 text-slate-950 shadow-md shadow-amber-500/20 transition-transform hover:scale-105" onClick={() => window.open('https://wa.me/6285645022647', '_blank')}>
               Konsultasi Sekarang
             </Button>
           </nav>
@@ -95,7 +98,7 @@ export const Header = () => {
               </li>
             ))}
           </ul>
-          <Button className="w-full rounded-full mt-2 bg-sky-600 hover:bg-sky-700 text-white" onClick={() => window.open('https://wa.me/6283167726255', '_blank')}>
+          <Button className="w-full rounded-full mt-2 bg-amber-600 hover:bg-amber-700 text-white" onClick={() => window.open('https://wa.me/6285645022647', '_blank')}>
             Konsultasi Sekarang
           </Button>
         </div>

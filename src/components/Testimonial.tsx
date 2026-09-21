@@ -31,7 +31,7 @@ export const Testimonial = () => {
                 <div key={testi.id} className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-4">
                   <Card className="h-full border border-slate-100 dark:border-slate-800 shadow-md hover:shadow-lg transition-shadow bg-white dark:bg-slate-900">
                     <CardContent className="p-8 relative">
-                      <Quote className="absolute top-6 right-8 text-sky-500/10 h-16 w-16" />
+                      <Quote className="absolute top-6 right-8 text-amber-500/10 h-16 w-16" />
                       <div className="flex items-center gap-1 mb-6 text-yellow-400">
                         {[...Array(testi.rating)].map((_, i) => (
                           <Star key={i} className="h-5 w-5 fill-current" />
@@ -44,7 +44,7 @@ export const Testimonial = () => {
                         <img 
                           src={testi.image} 
                           alt={testi.name} 
-                          className="w-12 h-12 rounded-full object-cover border-2 border-sky-500/20"
+                          className="w-12 h-12 rounded-full object-cover border-2 border-amber-500/20"
                         />
                         <div>
                           <h4 className="font-bold text-slate-900 dark:text-white font-jakarta">{testi.name}</h4>

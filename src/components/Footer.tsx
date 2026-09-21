@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/images/asasasssas.png";
+import logo from "../../public/images/almk.png";
 import { Twitter } from "lucide-react";
 
 export const Footer = () => {
@@ -12,7 +12,7 @@ export const Footer = () => {
             <Link href="#" className="inline-block mb-6">
               <Image 
                 src={logo} 
-                alt="Edutran Publisher Logo" 
+                alt="Almakki Publisher Logo" 
                 className="h-24 md:h-32 lg:h-36 w-auto object-contain mb-2" 
               />
             </Link>
@@ -20,7 +20,7 @@ export const Footer = () => {
               Mitra publikasi akademik terpercaya yang memberikan layanan komprehensif mulai dari editing hingga penerbitan dengan standar internasional.
             </p>
             <p className="text-xs text-slate-400 leading-relaxed">
-              📍 <span className="font-semibold text-slate-300">Domisili:</span> Plaza Summarecon Bekasi, Jl. Bulevar Ahmad Yani, Marga Mulya, Kec. Bekasi Utara, Kota Bekasi, Jawa Barat 17142.
+              📍 <span className="font-semibold text-slate-300">Domisili:</span> 4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia
             </p>
 
           </div>
@@ -43,7 +43,7 @@ export const Footer = () => {
               <li><Link href="/#tentang-kami" className="hover:text-primary transition-colors">Tim Kami</Link></li>
               <li><Link href="/#tentang-kami" className="hover:text-primary transition-colors">Karir</Link></li>
               <li><Link href="/#testimoni" className="hover:text-primary transition-colors">Testimoni</Link></li>
-              <li><a href="https://wa.me/6283167726255" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">Hubungi Kami</a></li>
+              <li><a href="https://wa.me/6285645022647" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">Hubungi Kami</a></li>
             </ul>
           </div>
 
@@ -59,7 +59,7 @@ export const Footer = () => {
 
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} Edutran Publisher. All rights reserved.
+            &copy; {new Date().getFullYear()} Almakki Publisher. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-slate-500">
             <span>Dibuat dengan ❤️ untuk Akademisi Indonesia</span>

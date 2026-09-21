@@ -32,15 +32,15 @@ export const Legality = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <CheckCircle className="text-sky-400 h-5 w-5" />
+                  <CheckCircle className="text-amber-400 h-5 w-5" />
                   <span className="font-medium">NIB Resmi dari Kementerian Investasi / BKPM</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <CheckCircle className="text-sky-400 h-5 w-5" />
+                  <CheckCircle className="text-amber-400 h-5 w-5" />
                   <span className="font-medium">NPWP Badan Usaha yang Valid</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <CheckCircle className="text-sky-400 h-5 w-5" />
+                  <CheckCircle className="text-amber-400 h-5 w-5" />
                   <span className="font-medium">Non-Disclosure Agreement (NDA) untuk setiap Klien</span>
                 </div>
               </div>
@@ -52,15 +52,15 @@ export const Legality = () => {
                   <div className="space-y-4 text-sm text-slate-300">
                     <div className="flex justify-between">
                       <span className="opacity-70">Nama Entitas</span>
-                      <span className="font-medium text-white">Edutran Publisher</span>
+                      <span className="font-medium text-white">Almakki Publisher</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="opacity-70">Sektor Bisnis</span>
                       <span className="font-medium text-white">Penerbitan & Konsultan</span>
                     </div>
-                    <div className="flex justify-between">
-                      <span className="opacity-70">Domisili</span>
-                      <span className="font-medium text-white">Kota Bekasi, Jawa Barat</span>
+                    <div className="flex justify-between gap-4">
+                      <span className="opacity-70 shrink-0">Domisili</span>
+                      <span className="font-medium text-white text-right">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
                     </div>
                   </div>
                </div>

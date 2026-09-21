@@ -38,7 +38,7 @@ export const Statistics = () => {
             className="text-2xl md:text-3xl lg:text-4xl font-bold font-jakarta leading-tight"
           >
             Jumlah Pendampingan dan Konsultasi <br />
-            Edutran Publisher
+            Almakki Publisher
           </motion.h2>
         </div>
 
@@ -53,7 +53,7 @@ export const Statistics = () => {
               transition={{ delay: index * 0.15 }}
               className="flex flex-col items-center justify-center space-y-3"
             >
-              <div className="text-4xl md:text-5xl lg:text-6xl font-black font-jakarta text-sky-400 tracking-tighter">
+              <div className="text-4xl md:text-5xl lg:text-6xl font-black font-jakarta text-amber-400 tracking-tighter">
                 <Counter to={stat.value} suffix={stat.suffix} />
               </div>
               <div className="text-sm md:text-sm font-medium text-white/70 tracking-wide">
