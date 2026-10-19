@@ -18,7 +18,7 @@ export const Contact = () => {
             Hubungi Kami
           </h2>
           <p className="text-sm md:text-lg text-slate-300 max-w-2xl mx-auto">
-            Tim konsultan Almakki Publisher siap memberikan pendampingan publikasi ilmiah terbaik untuk Anda.
+            Tim konsultan PRAMESA INSTITUTE siap memberikan pendampingan publikasi ilmiah terbaik untuk Anda.
           </p>
         </motion.div>
 
@@ -35,7 +35,9 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold text-white text-lg mb-1 font-jakarta">Domisili</h4>
-                  4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia
+                <p className="text-slate-300 text-sm md:text-base leading-relaxed">
+                  Griya Panyawangan III No.13, Tukmudal, Kec. Sumber, Kabupaten Cirebon, Jawa Barat
+                </p>
               </div>
             </div>
 
@@ -45,7 +47,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold text-white text-lg mb-1 font-jakarta">Telepon & WhatsApp</h4>
-                <p className="text-slate-300 text-sm md:text-base leading-relaxed">+62 856-4502-2647 (Admin)</p>
+                <p className="text-slate-300 text-sm md:text-base leading-relaxed">+62 857-5383-2107 (Admin)</p>
               </div>
             </div>
           </div>
@@ -54,7 +56,7 @@ export const Contact = () => {
             <Button
               size="lg"
               className="rounded-full px-8 py-3.5 text-base font-bold bg-amber-500 hover:bg-amber-600 text-slate-950 shadow-lg shadow-amber-500/20"
-              onClick={() => window.open("https://wa.me/6285645022647", "_blank")}
+              onClick={() => window.open("https://wa.me/6285753832107", "_blank")}
             >
               Konsultasi Sekarang via WhatsApp
             </Button>

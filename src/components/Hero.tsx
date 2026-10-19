@@ -8,8 +8,8 @@ export const Hero = () => {
   return (
     <section className="relative pt-24 pb-12 md:pt-40 md:pb-32 overflow-hidden bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
       {/* Background Decor */}
-      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] opacity-20 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-500/40 to-blue-500/20 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-screen" />
+      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] opacity-25 pointer-events-none">
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-400/40 via-yellow-400/25 to-amber-600/20 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-screen" />
       </div>
 
       <div className="container relative mx-auto px-4 md:px-6 lg:px-8 z-10">
@@ -52,7 +52,7 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-col sm:flex-row items-start sm:items-center gap-3 md:gap-4"
             >
-              <Button size="lg" className="w-auto rounded-full px-6 md:px-8 h-12 md:h-14 text-sm md:text-base gap-1.5 md:gap-2 shadow-lg shadow-amber-500/25 bg-amber-600 hover:bg-amber-700 text-white" onClick={() => window.open('https://wa.me/6285645022647', '_blank')}>
+              <Button size="lg" className="w-auto rounded-full px-6 md:px-8 h-12 md:h-14 text-sm md:text-base gap-1.5 md:gap-2 shadow-lg shadow-amber-500/25 bg-gradient-to-r from-amber-500 via-amber-600 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-white" onClick={() => window.open('https://wa.me/6285753832107', '_blank')}>
                 Konsultasi Sekarang
                 <ArrowRight className="h-4 w-4 md:h-5 md:w-5" />
               </Button>
@@ -111,12 +111,12 @@ export const Hero = () => {
                 className="absolute top-[55%] md:top-[45%] left-[-10px] md:left-[-5px] lg:-left-4 z-20 bg-white dark:bg-slate-900 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 overflow-hidden flex flex-col w-[150px] md:w-[180px] scale-[0.8] md:scale-100 origin-bottom-left"
               >
                 <div className="p-2 md:p-3 bg-slate-50 dark:bg-slate-800 flex items-center justify-center h-[70px] md:h-[90px] relative">
-                  <div className="absolute top-2 left-2 text-[6px] md:text-[8px] font-black text-blue-900 dark:text-blue-400 tracking-wider">SERTIFIKAT</div>
+                  <div className="absolute top-2 left-2 text-[6px] md:text-[8px] font-black text-amber-800 dark:text-amber-400 tracking-wider">SERTIFIKAT</div>
                   {/* Abstract Certificate Visual */}
                   <div className="w-[90%] h-[70%] mt-3 md:mt-4 border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-sm flex relative">
-                     <div className="w-1/3 bg-blue-900 dark:bg-blue-600 h-full"></div>
+                     <div className="w-1/3 bg-amber-600 dark:bg-amber-500 h-full"></div>
                      <Award className="w-4 h-4 md:w-5 md:h-5 text-yellow-500 absolute left-2 top-2" />
-                     <div className="w-4 h-4 md:w-6 md:h-6 rounded-full border-[2px] md:border-[3px] border-blue-100 dark:border-slate-700 opacity-50 absolute right-2 top-1"></div>
+                     <div className="w-4 h-4 md:w-6 md:h-6 rounded-full border-[2px] md:border-[3px] border-amber-200/60 dark:border-slate-700 opacity-50 absolute right-2 top-1"></div>
                      <div className="w-full h-full flex flex-col items-end justify-center pr-2 gap-1 mt-1 md:mt-2">
                         <div className="w-6 md:w-8 h-[2px] bg-slate-300 dark:bg-slate-700 rounded"></div>
                         <div className="w-8 md:w-12 h-[2px] bg-slate-300 dark:bg-slate-700 rounded"></div>

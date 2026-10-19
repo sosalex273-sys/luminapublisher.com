@@ -27,12 +27,12 @@ export const Institutions = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-black text-slate-800 font-jakarta mb-3 tracking-tight">
-            Almakki Publisher
+            PRAMESA INSTITUTE
           </h2>
           <p className="text-xl md:text-2xl font-bold text-slate-600">
             Telah Melayani Kolega dari Berbagai Institusi
           </p>
-          <div className="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 mx-auto mt-6 rounded-full shadow-sm"></div>
         </div>
 
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 max-w-7xl mx-auto">

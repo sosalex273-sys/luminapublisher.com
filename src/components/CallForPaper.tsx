@@ -59,12 +59,12 @@ const FlyerCard = ({ imgUrl, onError, onClick }: { imgUrl: string, onError: () =
     {/* Rebranding Header (Dipindah ke atas gambar agar tidak menutupi teks pada flyer) */}
     <div className="w-full bg-white px-3 py-2 flex items-center justify-between border-b border-slate-100">
       <div className="flex items-center gap-1.5">
-        <div className="w-5 h-5 bg-primary rounded-md flex items-center justify-center shrink-0">
-          <span className="text-white text-[10px] font-black">T</span>
+        <div className="w-5 h-5 bg-amber-500 rounded-md flex items-center justify-center shrink-0">
+          <span className="text-white text-[10px] font-black">P</span>
         </div>
-        <span className="text-slate-800 text-[10px] font-black font-jakarta tracking-tighter">Almakki Publisher</span>
+        <span className="text-slate-800 text-[10px] font-black font-jakarta tracking-tighter">PRAMESA INSTITUTE</span>
       </div>
-      <span className="text-[9px] font-semibold text-primary bg-primary/10 px-2 py-0.5 rounded-full">SINTA</span>
+      <span className="text-[9px] font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/20">SINTA</span>
     </div>
 
     {/* Image Container */}
@@ -77,10 +77,10 @@ const FlyerCard = ({ imgUrl, onError, onClick }: { imgUrl: string, onError: () =
     </div>
 
     {/* Address/Contact Footer */}
-    <div className="w-full bg-sky-950 text-white py-2 px-3 flex flex-col justify-center items-center text-center">
+    <div className="w-full bg-slate-900 border-t border-amber-500/20 text-white py-2.5 px-3 flex flex-col justify-center items-center text-center">
       <span className="text-[8px] font-bold uppercase tracking-widest text-amber-400 mb-1">Layanan Publikasi Jurnal</span>
-      <span className="text-[9px] font-medium opacity-90 mb-0.5">WhatsApp: +62 856-4502-2647</span>
-      <span className="text-[8px] font-light text-slate-300 leading-tight">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
+      <span className="text-[9px] font-medium opacity-90 mb-0.5">WhatsApp: +62 857-5383-2107</span>
+      <span className="text-[8px] font-light text-slate-300 leading-tight">Griya Panyawangan III No.13, Tukmudal, Kec. Sumber, Kabupaten Cirebon, Jawa Barat</span>
     </div>
   </div>
 );
@@ -126,7 +126,7 @@ export const CallForPaper = () => {
   };
 
   return (
-    <section className="py-20 bg-sky-950 overflow-hidden">
+    <section className="py-20 bg-slate-950 border-y border-amber-500/20 overflow-hidden relative">
       <div className="container mx-auto px-4 md:px-6">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
@@ -204,17 +204,17 @@ export const CallForPaper = () => {
                 onClick={(e) => e.stopPropagation()}
               />
               <div className="absolute top-0 left-0 bg-white px-4 py-3 rounded-br-3xl z-10 flex flex-col items-center justify-center shadow-lg w-[120px] h-[90px] border-b-2 border-r-2 border-slate-100">
-                <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center shrink-0 mb-2">
-                  <span className="text-white text-base font-black">T</span>
+                <div className="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center shrink-0 mb-2">
+                  <span className="text-white text-base font-black">P</span>
                 </div>
-                <span className="text-slate-800 text-[12px] font-black font-jakarta tracking-tighter leading-tight text-center">Almakki<br/>Publisher</span>
+                <span className="text-slate-800 text-[12px] font-black font-jakarta tracking-tighter leading-tight text-center">Pramesa<br/>Institute</span>
               </div>
 
               {/* Address Overlay on Zoomed Image */}
-              <div className="absolute bottom-0 left-0 w-full bg-sky-950 text-white py-4 px-6 z-10 flex flex-col justify-center items-center text-center rounded-b-lg border-t border-slate-700/50">
+              <div className="absolute bottom-0 left-0 w-full bg-slate-900 text-white py-4 px-6 z-10 flex flex-col justify-center items-center text-center rounded-b-lg border-t border-amber-500/30">
                 <span className="text-sm font-bold uppercase tracking-widest text-amber-400 mb-2">Layanan Publikasi Jurnal</span>
-                <span className="text-base font-medium opacity-90 mb-1">WhatsApp: +62 856-4502-2647</span>
-                <span className="text-xs font-light text-slate-300">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
+                <span className="text-base font-medium opacity-90 mb-1">WhatsApp: +62 857-5383-2107</span>
+                <span className="text-xs font-light text-slate-300">Griya Panyawangan III No.13, Tukmudal, Kec. Sumber, Kabupaten Cirebon, Jawa Barat</span>
               </div>
             </div>
           </motion.div>

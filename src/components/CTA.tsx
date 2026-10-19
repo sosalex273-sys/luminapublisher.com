@@ -8,9 +8,9 @@ export const CTA = () => {
   return (
     <section className="py-12 md:py-24 bg-slate-900 relative overflow-hidden">
       {/* Dynamic Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-primary/20 to-slate-900 z-0" />
-      <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary/30 rounded-full blur-[100px] pointer-events-none z-0" />
-      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-blue-500/20 rounded-full blur-[100px] pointer-events-none z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 z-0" />
+      <div className="absolute -top-40 -right-40 w-96 h-96 bg-amber-500/20 rounded-full blur-[100px] pointer-events-none z-0" />
+      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-yellow-500/15 rounded-full blur-[100px] pointer-events-none z-0" />
 
       <div className="container relative z-10 mx-auto px-4 md:px-6 text-center">
         <motion.div
@@ -28,8 +28,8 @@ export const CTA = () => {
           
           <Button 
             size="lg" 
-            className="bg-amber-600 hover:bg-amber-700 text-white rounded-full h-16 px-10 text-lg font-bold shadow-[0_0_40px_-10px_rgba(14,165,233,0.5)] hover:scale-105 transition-all duration-300 gap-3"
-            onClick={() => window.open('https://wa.me/6285645022647', '_blank')}
+            className="bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-slate-950 rounded-full h-16 px-10 text-lg font-black shadow-[0_0_40px_-5px_rgba(245,158,11,0.45)] hover:scale-105 transition-all duration-300 gap-3"
+            onClick={() => window.open('https://wa.me/6285753832107', '_blank')}
           >
             <MessageCircle className="h-6 w-6" />
             Hubungi via WhatsApp

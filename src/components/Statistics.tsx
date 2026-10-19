@@ -27,7 +27,7 @@ export const Statistics = () => {
   ];
 
   return (
-    <section className="py-12 md:py-20 bg-sky-950 text-white overflow-hidden relative">
+    <section className="py-12 md:py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white overflow-hidden relative border-y border-amber-500/20">
       <div className="container mx-auto px-4">
         {/* Title Section */}
         <div className="text-center mb-16">
@@ -38,7 +38,7 @@ export const Statistics = () => {
             className="text-2xl md:text-3xl lg:text-4xl font-bold font-jakarta leading-tight"
           >
             Jumlah Pendampingan dan Konsultasi <br />
-            Almakki Publisher
+            PRAMESA INSTITUTE
           </motion.h2>
         </div>
 
@@ -53,7 +53,7 @@ export const Statistics = () => {
               transition={{ delay: index * 0.15 }}
               className="flex flex-col items-center justify-center space-y-3"
             >
-              <div className="text-4xl md:text-5xl lg:text-6xl font-black font-jakarta text-amber-400 tracking-tighter">
+              <div className="text-4xl md:text-5xl lg:text-6xl font-black font-jakarta bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 bg-clip-text text-transparent tracking-tighter drop-shadow-[0_2px_10px_rgba(245,158,11,0.2)]">
                 <Counter to={stat.value} suffix={stat.suffix} />
               </div>
               <div className="text-sm md:text-sm font-medium text-white/70 tracking-wide">

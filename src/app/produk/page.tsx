@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { CheckCircle2 as CheckCircle2Icon, MessageCircle as MessageCircleIcon, ArrowRight, ArrowLeft } from 'lucide-react';
 
 export default function ProdukPage() {
-  const waLink = "https://wa.me/6285645022647";
+  const waLink = "https://wa.me/6285753832107";
 
   const packages = [
     {
@@ -146,14 +146,14 @@ export default function ProdukPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8 max-w-5xl mx-auto relative">
             {/* Steps line connector (visible on desktop) */}
-            <div className="hidden md:block absolute top-6 left-[15%] right-[15%] h-[2px] bg-sky-50 -z-10"></div>
+            <div className="hidden md:block absolute top-6 left-[15%] right-[15%] h-[2px] bg-amber-100 -z-10"></div>
             
             {/* Step 1 */}
             <div className="flex flex-col items-center text-center">
-              <div className="w-12 h-12 bg-[#0ea5e9] rounded-full text-white font-bold flex items-center justify-center text-xl mb-6 shadow-lg shadow-amber-500/30">
+              <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-yellow-500 rounded-full text-slate-950 font-black flex items-center justify-center text-xl mb-6 shadow-lg shadow-amber-500/30">
                 1
               </div>
-              <div className="bg-white p-6 lg:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] w-full border border-slate-50 hover:-translate-y-1 transition-transform">
+              <div className="bg-white p-6 lg:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] w-full border border-amber-100/50 hover:-translate-y-1 transition-transform">
                 <h3 className="font-bold text-slate-900 text-lg mb-3">Konsultasi</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">
                   Diskusikan naskah dan target jurnal Anda dengan tim kami.
@@ -163,10 +163,10 @@ export default function ProdukPage() {
 
             {/* Step 2 */}
             <div className="flex flex-col items-center text-center">
-              <div className="w-12 h-12 bg-[#0ea5e9] rounded-full text-white font-bold flex items-center justify-center text-xl mb-6 shadow-lg shadow-amber-500/30">
+              <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-yellow-500 rounded-full text-slate-950 font-black flex items-center justify-center text-xl mb-6 shadow-lg shadow-amber-500/30">
                 2
               </div>
-              <div className="bg-white p-6 lg:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] w-full border border-slate-50 hover:-translate-y-1 transition-transform">
+              <div className="bg-white p-6 lg:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] w-full border border-amber-100/50 hover:-translate-y-1 transition-transform">
                 <h3 className="font-bold text-slate-900 text-lg mb-3">Proses Publikasi</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">
                   Editor & reviewer bekerja, Anda tracking progressnya.
@@ -176,10 +176,10 @@ export default function ProdukPage() {
 
             {/* Step 3 */}
             <div className="flex flex-col items-center text-center">
-              <div className="w-12 h-12 bg-[#0ea5e9] rounded-full text-white font-bold flex items-center justify-center text-xl mb-6 shadow-lg shadow-amber-500/30">
+              <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-yellow-500 rounded-full text-slate-950 font-black flex items-center justify-center text-xl mb-6 shadow-lg shadow-amber-500/30">
                 3
               </div>
-              <div className="bg-white p-6 lg:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] w-full border border-slate-50 hover:-translate-y-1 transition-transform">
+              <div className="bg-white p-6 lg:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] w-full border border-amber-100/50 hover:-translate-y-1 transition-transform">
                 <h3 className="font-bold text-slate-900 text-lg mb-3">Jurnal Terbit</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">
                   Dapatkan pendampingan hingga Letter of Acceptance (LoA) diterbitkan.
@@ -191,15 +191,15 @@ export default function ProdukPage() {
       </section>
 
       {/* CTA Banner Section */}
-      <section className="bg-[#0ea5e9] py-24 text-center px-4">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-10 max-w-2xl mx-auto leading-tight tracking-tight">
-          Siap Publikasi? Mulai Bersama Almakki Publisher!
+      <section className="bg-gradient-to-r from-amber-600 via-amber-500 to-yellow-500 py-24 text-center px-4 relative overflow-hidden shadow-2xl">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-950 mb-10 max-w-2xl mx-auto leading-tight tracking-tight">
+          Siap Publikasi? Mulai Bersama PRAMESA INSTITUTE!
         </h2>
         <a 
           href={waLink} 
           target="_blank" 
           rel="noreferrer"
-          className="inline-flex items-center justify-center gap-2 bg-[#111] text-white font-semibold px-8 py-4 rounded-full hover:bg-black transition-all hover:scale-105 shadow-xl shadow-black/20"
+          className="inline-flex items-center justify-center gap-2 bg-slate-950 text-white hover:text-amber-300 font-bold px-8 py-4 rounded-full transition-all hover:scale-105 shadow-xl shadow-slate-950/20"
         >
           Konsultasi Sekarang <ArrowRight className="w-4 h-4 ml-1" />
         </a>

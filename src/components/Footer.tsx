@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/images/almk.png";
+import logo from "../../public/images/logobaru.png";
 import { Twitter } from "lucide-react";
 
 export const Footer = () => {
@@ -9,57 +9,62 @@ export const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
-            <Link href="#" className="inline-block mb-6">
-              <Image 
-                src={logo} 
-                alt="Almakki Publisher Logo" 
-                className="h-24 md:h-32 lg:h-36 w-auto object-contain mb-2" 
-              />
+            <Link href="#" className="inline-block mb-4 group">
+              <div className="flex items-center gap-3">
+                <Image 
+                  src={logo} 
+                  alt="PRAMESA INSTITUTE Logo" 
+                  className="h-16 md:h-20 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-[0_2px_12px_rgba(212,175,55,0.35)]" 
+                />
+                <span className="font-jakarta font-extrabold text-lg md:text-xl bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent tracking-tight">
+                  PRAMESA INSTITUTE
+                </span>
+              </div>
             </Link>
             <p className="text-slate-400 mb-4 leading-relaxed text-sm">
               Mitra publikasi akademik terpercaya yang memberikan layanan komprehensif mulai dari editing hingga penerbitan dengan standar internasional.
             </p>
             <p className="text-xs text-slate-400 leading-relaxed">
-              📍 <span className="font-semibold text-slate-300">Domisili:</span> 4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia
+              📍 <span className="font-semibold text-amber-300">Domisili:</span> Griya Panyawangan III No.13, Tukmudal, Kec. Sumber, Kabupaten Cirebon, Jawa Barat
             </p>
 
           </div>
 
           <div>
-            <h4 className="text-white font-bold text-lg mb-6 font-jakarta">Layanan</h4>
+            <h4 className="text-amber-400 font-bold text-lg mb-6 font-jakarta tracking-wide">Layanan</h4>
             <ul className="space-y-4">
-              <li><Link href="/produk" className="hover:text-primary transition-colors">Publikasi Jurnal Nasional</Link></li>
-              <li><Link href="/produk" className="hover:text-primary transition-colors">Publikasi Jurnal Internasional</Link></li>
-              <li><Link href="/#layanan" className="hover:text-primary transition-colors">Pendaftaran Hak Cipta (HKI)</Link></li>
-              <li><Link href="/#layanan" className="hover:text-primary transition-colors">Penerbitan Buku (ISBN)</Link></li>
-              <li><Link href="/#layanan" className="hover:text-primary transition-colors">Proofreading & Translation</Link></li>
+              <li><Link href="/produk" className="hover:text-amber-400 transition-colors">Publikasi Jurnal Nasional</Link></li>
+              <li><Link href="/produk" className="hover:text-amber-400 transition-colors">Publikasi Jurnal Internasional</Link></li>
+              <li><Link href="/#layanan" className="hover:text-amber-400 transition-colors">Pendaftaran Hak Cipta (HKI)</Link></li>
+              <li><Link href="/#layanan" className="hover:text-amber-400 transition-colors">Penerbitan Buku (ISBN)</Link></li>
+              <li><Link href="/#layanan" className="hover:text-amber-400 transition-colors">Proofreading & Translation</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white font-bold text-lg mb-6 font-jakarta">Perusahaan</h4>
+            <h4 className="text-amber-400 font-bold text-lg mb-6 font-jakarta tracking-wide">Perusahaan</h4>
             <ul className="space-y-4">
-              <li><Link href="/#tentang-kami" className="hover:text-primary transition-colors">Tentang Kami</Link></li>
-              <li><Link href="/#tentang-kami" className="hover:text-primary transition-colors">Tim Kami</Link></li>
-              <li><Link href="/#tentang-kami" className="hover:text-primary transition-colors">Karir</Link></li>
-              <li><Link href="/#testimoni" className="hover:text-primary transition-colors">Testimoni</Link></li>
-              <li><a href="https://wa.me/6285645022647" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">Hubungi Kami</a></li>
+              <li><Link href="/#tentang-kami" className="hover:text-amber-400 transition-colors">Tentang Kami</Link></li>
+              <li><Link href="/#tentang-kami" className="hover:text-amber-400 transition-colors">Tim Kami</Link></li>
+              <li><Link href="/#tentang-kami" className="hover:text-amber-400 transition-colors">Karir</Link></li>
+              <li><Link href="/#testimoni" className="hover:text-amber-400 transition-colors">Testimoni</Link></li>
+              <li><a href="https://wa.me/6285753832107" target="_blank" rel="noreferrer" className="hover:text-amber-400 transition-colors">Hubungi Kami</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white font-bold text-lg mb-6 font-jakarta">Legal</h4>
+            <h4 className="text-amber-400 font-bold text-lg mb-6 font-jakarta tracking-wide">Legal</h4>
             <ul className="space-y-4">
-              <li><Link href="/" className="hover:text-primary transition-colors">Syarat & Ketentuan</Link></li>
-              <li><Link href="/" className="hover:text-primary transition-colors">Kebijakan Privasi</Link></li>
-              <li><Link href="/" className="hover:text-primary transition-colors">Disclaimer</Link></li>
+              <li><Link href="/" className="hover:text-amber-400 transition-colors">Syarat & Ketentuan</Link></li>
+              <li><Link href="/" className="hover:text-amber-400 transition-colors">Kebijakan Privasi</Link></li>
+              <li><Link href="/" className="hover:text-amber-400 transition-colors">Disclaimer</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} Almakki Publisher. All rights reserved.
+            &copy; {new Date().getFullYear()} PRAMESA INSTITUTE. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-slate-500">
             <span>Dibuat dengan ❤️ untuk Akademisi Indonesia</span>

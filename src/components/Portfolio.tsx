@@ -45,10 +45,10 @@ export const Portfolio = () => {
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent flex flex-col justify-end p-6">
-                <span className="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full w-fit mb-3">
+                <span className="inline-block px-3 py-1 bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 text-xs font-black rounded-full w-fit mb-3 shadow-md">
                   {item.scope}
                 </span>
-                <h3 className="text-white font-bold font-jakarta leading-tight group-hover:text-primary-foreground transition-colors">
+                <h3 className="text-white font-bold font-jakarta leading-tight group-hover:text-amber-400 transition-colors">
                   {item.title}
                 </h3>
               </div>

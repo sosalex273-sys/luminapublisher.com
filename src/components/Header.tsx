@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/images/almk.png";
+import logo from "../../public/images/logobaru.png";
 import { Menu, X, BookOpen } from "lucide-react";
 import { Button } from "./ui/button";
 import { ThemeToggle } from "./ThemeToggle";
@@ -39,14 +39,14 @@ export const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <Link href="#" className="flex items-center gap-3 py-1">
+          <Link href="#" className="flex items-center gap-3 py-1 group">
             <Image 
               src={logo} 
-              alt="Almakki Publisher Logo" 
-              className="h-14 md:h-16 lg:h-20 w-auto object-contain transition-transform hover:scale-105"
+              alt="PRAMESA INSTITUTE Logo" 
+              className="h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-[0_2px_12px_rgba(212,175,55,0.35)]"
             />
-            <span className="font-jakarta font-bold text-lg md:text-xl lg:text-2xl text-slate-900 dark:text-white tracking-tight whitespace-nowrap">
-              Almakki Publisher
+            <span className="font-jakarta font-extrabold text-lg md:text-xl lg:text-2xl bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent tracking-tight whitespace-nowrap">
+              PRAMESA INSTITUTE
             </span>
           </Link>
 
@@ -64,7 +64,7 @@ export const Header = () => {
                 </li>
               ))}
             </ul>
-            <Button className="rounded-full px-6 py-2 text-sm lg:text-base font-bold bg-amber-500 hover:bg-amber-600 text-slate-950 shadow-md shadow-amber-500/20 transition-transform hover:scale-105" onClick={() => window.open('https://wa.me/6285645022647', '_blank')}>
+            <Button className="rounded-full px-6 py-2 text-sm lg:text-base font-bold bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-slate-950 shadow-md shadow-amber-500/25 transition-transform hover:scale-105" onClick={() => window.open('https://wa.me/6285753832107', '_blank')}>
               Konsultasi Sekarang
             </Button>
           </nav>
@@ -98,7 +98,7 @@ export const Header = () => {
               </li>
             ))}
           </ul>
-          <Button className="w-full rounded-full mt-2 bg-amber-600 hover:bg-amber-700 text-white" onClick={() => window.open('https://wa.me/6285645022647', '_blank')}>
+          <Button className="w-full rounded-full mt-2 bg-amber-600 hover:bg-amber-700 text-white" onClick={() => window.open('https://wa.me/6285753832107', '_blank')}>
             Konsultasi Sekarang
           </Button>
         </div>

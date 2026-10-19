@@ -165,10 +165,10 @@ const products = [
 ];
 
 export const Products = () => {
-  const waLink = "https://wa.me/6285645022647";
+  const waLink = "https://wa.me/6285753832107";
 
   return (
-    <section id="produk" className="py-12 md:py-20 lg:py-28 bg-sky-50/30 dark:bg-slate-950 transition-colors duration-300">
+    <section id="produk" className="py-12 md:py-20 lg:py-28 bg-amber-50/30 dark:bg-slate-950 transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product, index) => (

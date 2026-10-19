@@ -9,17 +9,20 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Almakki Publisher - Premium Publishing Company",
-  description: "Layanan publikasi jurnal, buku, dan HKI profesional terbaik.",
-  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "Almakki Publisher"],
-  authors: [{ name: "Almakki Publisher" }],
+  title: "PRAMESA INSTITUTE - Lembaga Publikasi Ilmiah & Konsultan Akademik",
+  description: "Layanan publikasi jurnal nasional & internasional, buku, dan HKI profesional terbaik.",
+  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "PRAMESA INSTITUTE"],
+  authors: [{ name: "PRAMESA INSTITUTE" }],
+  icons: {
+    icon: "/images/logobaru.png",
+  },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://Almakkipublisher.id",
-    title: "Almakki Publisher - Premium Publishing",
+    url: "https://pramesainstitute.com",
+    title: "PRAMESA INSTITUTE - Premium Publishing",
     description: "Layanan publikasi terbaik untuk kebutuhan akademik dan profesional.",
-    siteName: "Almakki Publisher",
+    siteName: "PRAMESA INSTITUTE",
   },
   robots: {
     index: true,
