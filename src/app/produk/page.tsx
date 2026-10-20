@@ -1,9 +1,9 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { CheckCircle2 as CheckCircle2Icon, MessageCircle as MessageCircleIcon, ArrowRight, ArrowLeft } from 'lucide-react';
 
 export default function ProdukPage() {
-  const waLink = "https://wa.me/6285753832107";
+  const waLink = "https://wa.me/6285796123601";
 
   const packages = [
     {
@@ -193,7 +193,7 @@ export default function ProdukPage() {
       {/* CTA Banner Section */}
       <section className="bg-gradient-to-r from-amber-600 via-amber-500 to-yellow-500 py-24 text-center px-4 relative overflow-hidden shadow-2xl">
         <h2 className="text-3xl md:text-4xl font-extrabold text-slate-950 mb-10 max-w-2xl mx-auto leading-tight tracking-tight">
-          Siap Publikasi? Mulai Bersama PRAMESA INSTITUTE!
+          Siap Publikasi? Mulai Bersama LUMINA PUBLISHER!
         </h2>
         <a 
           href={waLink} 

@@ -42,11 +42,11 @@ export const Header = () => {
           <Link href="#" className="flex items-center gap-3 py-1 group">
             <Image 
               src={logo} 
-              alt="PRAMESA INSTITUTE Logo" 
-              className="h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-[0_2px_12px_rgba(212,175,55,0.35)]"
+              alt="LUMINA PUBLISHER Logo" 
+              className="h-12 md:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-[0_2px_14px_rgba(220,38,38,0.45)]"
             />
-            <span className="font-jakarta font-extrabold text-lg md:text-xl lg:text-2xl bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent tracking-tight whitespace-nowrap">
-              PRAMESA INSTITUTE
+            <span className="font-jakarta font-extrabold text-lg md:text-xl lg:text-2xl bg-gradient-to-r from-red-500 via-rose-400 to-amber-400 bg-clip-text text-transparent tracking-tight whitespace-nowrap">
+              LUMINA PUBLISHER
             </span>
           </Link>
 
@@ -57,14 +57,14 @@ export const Header = () => {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-sm lg:text-base font-semibold text-slate-200 hover:text-amber-400 transition-colors"
+                    className="text-sm lg:text-base font-semibold text-slate-200 hover:text-red-400 transition-colors"
                   >
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <Button className="rounded-full px-6 py-2 text-sm lg:text-base font-bold bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-slate-950 shadow-md shadow-amber-500/25 transition-transform hover:scale-105" onClick={() => window.open('https://wa.me/6285753832107', '_blank')}>
+            <Button className="rounded-full px-6 py-2 text-sm lg:text-base font-bold bg-gradient-to-r from-red-600 via-rose-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white border border-amber-400/50 shadow-md shadow-red-600/30 transition-transform hover:scale-105" onClick={() => window.open('https://wa.me/6285796123601', '_blank')}>
               Konsultasi Sekarang
             </Button>
           </nav>
@@ -98,7 +98,7 @@ export const Header = () => {
               </li>
             ))}
           </ul>
-          <Button className="w-full rounded-full mt-2 bg-amber-600 hover:bg-amber-700 text-white" onClick={() => window.open('https://wa.me/6285753832107', '_blank')}>
+          <Button className="w-full rounded-full mt-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold border border-amber-400/50 shadow-md shadow-red-600/25" onClick={() => window.open('https://wa.me/6285796123601', '_blank')}>
             Konsultasi Sekarang
           </Button>
         </div>

@@ -2,14 +2,14 @@
 
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
-import { ArrowRight, CheckCircle2, Star, BookOpen, GraduationCap, Award } from "lucide-react";
+import { ArrowRight, CheckCircle2, Star, BookOpen, GraduationCap, Award, Heart } from "lucide-react";
 
 export const Hero = () => {
   return (
     <section className="relative pt-24 pb-12 md:pt-40 md:pb-32 overflow-hidden bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
       {/* Background Decor */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] opacity-25 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-400/40 via-yellow-400/25 to-amber-600/20 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-screen" />
+        <div className="absolute inset-0 bg-gradient-to-br from-red-500/35 via-rose-500/25 to-amber-500/30 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-screen" />
       </div>
 
       <div className="container relative mx-auto px-4 md:px-6 lg:px-8 z-10">
@@ -21,7 +21,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/10 text-amber-600 dark:text-amber-400 text-sm font-medium mb-6 border border-amber-500/20"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-500/10 text-red-600 dark:text-red-400 text-sm font-medium mb-6 border border-red-500/20"
             >
               <Star className="h-4 w-4 fill-amber-500 text-amber-500" />
               <span>Pendampingan Publikasi Ilmiah & Konsultasi Karir Dosen</span>
@@ -52,7 +52,7 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-col sm:flex-row items-start sm:items-center gap-3 md:gap-4"
             >
-              <Button size="lg" className="w-auto rounded-full px-6 md:px-8 h-12 md:h-14 text-sm md:text-base gap-1.5 md:gap-2 shadow-lg shadow-amber-500/25 bg-gradient-to-r from-amber-500 via-amber-600 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-white" onClick={() => window.open('https://wa.me/6285753832107', '_blank')}>
+              <Button size="lg" className="w-auto rounded-full px-6 md:px-8 h-12 md:h-14 text-sm md:text-base gap-1.5 md:gap-2 shadow-lg shadow-red-600/30 bg-gradient-to-r from-red-600 via-rose-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold border border-amber-400/50" onClick={() => window.open('https://wa.me/6285796123601', '_blank')}>
                 Konsultasi Sekarang
                 <ArrowRight className="h-4 w-4 md:h-5 md:w-5" />
               </Button>
@@ -78,13 +78,13 @@ export const Hero = () => {
               />
               
               {/* Central Background Shape */}
-              <div className="absolute w-[260px] h-[260px] md:w-[380px] md:h-[380px] rounded-full bg-gradient-to-tr from-primary/20 to-amber-200/50 border-[6px] md:border-[8px] border-white shadow-xl z-0" />
+              <div className="absolute w-[260px] h-[260px] md:w-[380px] md:h-[380px] rounded-full bg-gradient-to-tr from-red-500/20 to-amber-300/40 border-[6px] md:border-[8px] border-white shadow-xl z-0" />
               
               {/* Image Container */}
               <div className="absolute bottom-0 w-[240px] h-[360px] md:w-[320px] md:h-[480px] bg-slate-100 rounded-t-[120px] md:rounded-t-[160px] shadow-2xl overflow-hidden border-[6px] md:border-8 border-white z-10 flex items-center justify-center">
                   <img 
-                    src="/images/hero2.png" 
-                    alt="Konsultan Pendidikan PRAMESA INSTITUTE Berpakaian Batik Hitam Emas" 
+                    src="/images/hero3.png" 
+                    alt="Konsultan Pendidikan LUMINA PUBLISHER Berpakaian Batik Merah Emas" 
                     className="w-full h-full object-cover object-top scale-[1.05]" 
                   />
               </div>
@@ -111,10 +111,10 @@ export const Hero = () => {
                 className="absolute top-[55%] md:top-[45%] left-[-10px] md:left-[-5px] lg:-left-4 z-20 bg-white dark:bg-slate-900 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 overflow-hidden flex flex-col w-[150px] md:w-[180px] scale-[0.8] md:scale-100 origin-bottom-left"
               >
                 <div className="p-2 md:p-3 bg-slate-50 dark:bg-slate-800 flex items-center justify-center h-[70px] md:h-[90px] relative">
-                  <div className="absolute top-2 left-2 text-[6px] md:text-[8px] font-black text-amber-800 dark:text-amber-400 tracking-wider">SERTIFIKAT</div>
+                  <div className="absolute top-2 left-2 text-[6px] md:text-[8px] font-black text-red-600 dark:text-red-400 tracking-wider">SERTIFIKAT</div>
                   {/* Abstract Certificate Visual */}
                   <div className="w-[90%] h-[70%] mt-3 md:mt-4 border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-sm flex relative">
-                     <div className="w-1/3 bg-amber-600 dark:bg-amber-500 h-full"></div>
+                     <div className="w-1/3 bg-gradient-to-b from-red-600 to-amber-500 h-full"></div>
                      <Award className="w-4 h-4 md:w-5 md:h-5 text-yellow-500 absolute left-2 top-2" />
                      <div className="w-4 h-4 md:w-6 md:h-6 rounded-full border-[2px] md:border-[3px] border-amber-200/60 dark:border-slate-700 opacity-50 absolute right-2 top-1"></div>
                      <div className="w-full h-full flex flex-col items-end justify-center pr-2 gap-1 mt-1 md:mt-2">
@@ -136,14 +136,14 @@ export const Hero = () => {
                 transition={{ repeat: Infinity, duration: 5.5, ease: "easeInOut", delay: 0.5 }}
                 className="absolute top-0 md:top-[5%] right-[-10px] md:right-0 lg:-right-10 z-20 bg-white dark:bg-slate-900 p-2 md:p-3 rounded-2xl shadow-xl border border-amber-100 dark:border-slate-800 w-[200px] md:w-[240px] scale-[0.8] md:scale-100 origin-top-right"
               >
-                <div className="bg-gradient-to-r from-amber-600 to-amber-500 text-white text-[8px] md:text-[10px] font-bold px-2 py-1 md:px-3 md:py-1 rounded-md inline-block mb-1.5 md:mb-2">
+                <div className="bg-gradient-to-r from-red-600 via-rose-600 to-amber-500 text-white text-[8px] md:text-[10px] font-bold px-2 py-1 md:px-3 md:py-1 rounded-md inline-block mb-1.5 md:mb-2 shadow-sm">
                   Benefit Pasti:
                 </div>
                 <div className="grid grid-cols-1 gap-x-2 gap-y-1 md:gap-y-1.5">
-                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-amber-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Asistensi Hingga Publish</span></div>
-                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-amber-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Legalitas Jelas</span></div>
-                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-amber-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Tracking Progress</span></div>
-                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-amber-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Administrasi Lengkap</span></div>
+                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-red-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Asistensi Hingga Publish</span></div>
+                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-red-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Legalitas Jelas</span></div>
+                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-red-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Tracking Progress</span></div>
+                  <div className="flex items-center gap-1.5"><CheckCircle2 className="w-3 h-3 md:w-3.5 md:h-3.5 text-red-500" /><span className="text-[8px] md:text-[10px] font-medium text-slate-700 dark:text-slate-200">Administrasi Lengkap</span></div>
                 </div>
               </motion.div>
 
@@ -153,13 +153,13 @@ export const Hero = () => {
                 transition={{ repeat: Infinity, duration: 3.5, ease: "easeInOut", delay: 1 }}
                 className="absolute top-[40%] md:top-[45%] right-[-10px] md:right-0 lg:-right-6 z-20 bg-white dark:bg-slate-900 p-2 md:p-3 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 flex flex-col items-center justify-center scale-[0.85] md:scale-100 origin-right"
               >
-                <div className="flex items-center gap-1 mb-1">
+                <div className="flex items-center gap-1.5 mb-1">
                   <span className="text-xl md:text-2xl font-black text-slate-700 dark:text-slate-100 tracking-tight">1200+</span>
-                  <div className="w-5 h-5 md:w-6 md:h-6 bg-yellow-100 rounded-full flex items-center justify-center text-xs md:text-sm relative">Ã°Å¸Â¤Â©
-                    <div className="absolute -top-1 -right-1 flex text-red-500 text-[8px] md:text-[10px]">Ã¢ÂÂ¤Ã¯Â¸Â</div>
+                  <div className="w-6 h-6 bg-red-100 dark:bg-red-950/60 rounded-full flex items-center justify-center text-red-500 shadow-sm">
+                    <Heart className="w-3.5 h-3.5 fill-red-500 text-red-500" />
                   </div>
                 </div>
-                <p className="text-[8px] md:text-[10px] font-bold text-slate-600 text-center leading-tight">Klien Sukses - Track<br/>Record Terpercaya</p>
+                <p className="text-[8px] md:text-[10px] font-bold text-slate-600 dark:text-slate-300 text-center leading-tight">Klien Sukses - Track<br/>Record Terpercaya</p>
               </motion.div>
 
               {/* Badge 4: Special SINTA 20% OFF */}

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { Scale, FileSignature, CheckCircle } from "lucide-react";
@@ -52,7 +52,7 @@ export const Legality = () => {
                 <div className="space-y-4 text-sm text-slate-300">
                   <div className="flex justify-between">
                     <span className="opacity-70">Nama Entitas</span>
-                    <span className="font-medium text-white">PRAMESA INSTITUTE</span>
+                    <span className="font-medium text-white">LUMINA PUBLISHER</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="opacity-70">Sektor Bisnis</span>
@@ -60,7 +60,7 @@ export const Legality = () => {
                   </div>
                   <div className="flex justify-between gap-4">
                     <span className="opacity-70 shrink-0">Domisili</span>
-                    <span className="font-medium text-white text-right">Griya Panyawangan III No.13, Tukmudal, Kec. Sumber, Kabupaten Cirebon, Jawa Barat</span>
+                    <span className="font-medium text-white text-right">4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia</span>
                   </div>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
@@ -18,7 +18,7 @@ export const AboutUs = () => {
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-200 dark:bg-slate-800 shadow-lg">
               <img
                 src="/images/about.png"
-                alt="Tim PRAMESA INSTITUTE"
+                alt="Tim LUMINA PUBLISHER"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-amber-500/10 mix-blend-overlay" />
@@ -41,7 +41,7 @@ export const AboutUs = () => {
               Mitra Terpercaya untuk Kesuksesan Akademik Anda
             </h2>
             <p className="text-sm md:text-lg text-slate-600 dark:text-slate-300 mb-6 md:mb-8 leading-relaxed">
-              <strong className="text-slate-900 dark:text-white">PRAMESA INSTITUTE</strong> adalah Lembaga Publikasi Ilmiah yang sudah berdiri sejak 2018 dan resmi berbadan hukum dengan Nomor Induk Berusaha (NIB): 0304220013798 serta sudah berbentuk CV. Sejak didirikan, PRAMESA INSTITUTE telah membantu ribuan akademisi dalam menerbitkan jurnal dan buku, baik yang terakreditasi nasional maupun bereputasi internasional.
+              <strong className="text-slate-900 dark:text-white">LUMINA PUBLISHER</strong> adalah Lembaga Publikasi Ilmiah yang sudah berdiri sejak 2018 dan resmi berbadan hukum dengan Nomor Induk Berusaha (NIB): 0304220013798 serta sudah berbentuk CV. Sejak didirikan, LUMINA PUBLISHER telah membantu ribuan akademisi dalam menerbitkan jurnal dan buku, baik yang terakreditasi nasional maupun bereputasi internasional.
             </p>
             <ul className="space-y-4">
               {[

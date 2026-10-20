@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { ShieldCheck, Zap, Clock, Trophy } from "lucide-react";
@@ -37,7 +37,7 @@ export const WhyChooseUs = () => {
           className="max-w-2xl mx-auto mb-16"
         >
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold font-jakarta text-slate-900 dark:text-white mb-4">
-            Mengapa Memilih PRAMESA INSTITUTE?
+            Mengapa Memilih LUMINA PUBLISHER?
           </h2>
           <p className="text-sm md:text-lg text-slate-600 dark:text-slate-300">
             Kami menawarkan lebih dari sekadar jasa publikasi. Kami memberikan ketenangan pikiran dan jaminan profesionalisme.

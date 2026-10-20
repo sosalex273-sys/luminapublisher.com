@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
@@ -38,7 +38,7 @@ export const Statistics = () => {
             className="text-2xl md:text-3xl lg:text-4xl font-bold font-jakarta leading-tight"
           >
             Jumlah Pendampingan dan Konsultasi <br />
-            PRAMESA INSTITUTE
+            LUMINA PUBLISHER
           </motion.h2>
         </div>
 

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
@@ -165,7 +165,7 @@ const products = [
 ];
 
 export const Products = () => {
-  const waLink = "https://wa.me/6285753832107";
+  const waLink = "https://wa.me/6285796123601";
 
   return (
     <section id="produk" className="py-12 md:py-20 lg:py-28 bg-amber-50/30 dark:bg-slate-950 transition-colors duration-300">

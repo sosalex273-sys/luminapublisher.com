@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/images/logobaru.png";
+import logo from "../../public/images/LOGOBARUNEW.png";
 import { Twitter } from "lucide-react";
 
 export const Footer = () => {
@@ -13,11 +13,11 @@ export const Footer = () => {
               <div className="flex items-center gap-3">
                 <Image 
                   src={logo} 
-                  alt="PRAMESA INSTITUTE Logo" 
-                  className="h-16 md:h-20 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-[0_2px_12px_rgba(212,175,55,0.35)]" 
+                  alt="LUMINA PUBLISHER Logo" 
+                  className="h-16 md:h-20 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-[0_2px_14px_rgba(220,38,38,0.45)]" 
                 />
-                <span className="font-jakarta font-extrabold text-lg md:text-xl bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-transparent tracking-tight">
-                  PRAMESA INSTITUTE
+                <span className="font-jakarta font-extrabold text-lg md:text-xl bg-gradient-to-r from-red-500 via-rose-400 to-amber-400 bg-clip-text text-transparent tracking-tight">
+                  LUMINA PUBLISHER
                 </span>
               </div>
             </Link>
@@ -25,7 +25,7 @@ export const Footer = () => {
               Mitra publikasi akademik terpercaya yang memberikan layanan komprehensif mulai dari editing hingga penerbitan dengan standar internasional.
             </p>
             <p className="text-xs text-slate-400 leading-relaxed">
-              📍 <span className="font-semibold text-amber-300">Domisili:</span> Griya Panyawangan III No.13, Tukmudal, Kec. Sumber, Kabupaten Cirebon, Jawa Barat
+              📍 <span className="font-semibold text-red-400">Domisili:</span> 4HW3+7FQ, Penambangan, Kec. Sedong, Kabupaten Cirebon, Jawa Barat 45189, Indonesia
             </p>
 
           </div>
@@ -48,7 +48,7 @@ export const Footer = () => {
               <li><Link href="/#tentang-kami" className="hover:text-amber-400 transition-colors">Tim Kami</Link></li>
               <li><Link href="/#tentang-kami" className="hover:text-amber-400 transition-colors">Karir</Link></li>
               <li><Link href="/#testimoni" className="hover:text-amber-400 transition-colors">Testimoni</Link></li>
-              <li><a href="https://wa.me/6285753832107" target="_blank" rel="noreferrer" className="hover:text-amber-400 transition-colors">Hubungi Kami</a></li>
+              <li><a href="https://wa.me/6285796123601" target="_blank" rel="noreferrer" className="hover:text-amber-400 transition-colors">Hubungi Kami</a></li>
             </ul>
           </div>
 
@@ -64,7 +64,7 @@ export const Footer = () => {
 
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} PRAMESA INSTITUTE. All rights reserved.
+            &copy; {new Date().getFullYear()} LUMINA PUBLISHER. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-slate-500">
             <span>Dibuat dengan ❤️ untuk Akademisi Indonesia</span>

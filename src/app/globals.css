@@ -13,8 +13,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 43 92% 48%;
-    --primary-foreground: 222.2 84% 4.9%;
+    --primary: 350 84% 52%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 45 30% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -22,15 +22,15 @@
     --muted: 45 20% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 45 40% 94%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 38 92% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 43 92% 48%;
+    --ring: 350 84% 52%;
 
     --radius: 0.5rem;
   }
@@ -45,8 +45,8 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 43 92% 48%;
-    --primary-foreground: 222.2 84% 4.9%;
+    --primary: 350 84% 55%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -54,15 +54,15 @@
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 38 92% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 43 92% 48%;
+    --ring: 350 84% 55%;
   }
 }
 
@@ -92,7 +92,7 @@
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #FDE047 0%, #F59E0B 50%, #D97706 100%);
+  background: linear-gradient(135deg, #F87171 0%, #EF4444 25%, #DC2626 65%, #B91C1C 88%, #F59E0B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -103,4 +103,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.btn-brand-gradient {
+  background: linear-gradient(135deg, #E11D48 0%, #DC2626 40%, #B91C1C 100%);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+.btn-brand-gradient:hover {
+  background: linear-gradient(135deg, #BE123C 0%, #B91C1C 40%, #991B1B 100%);
+  border-color: rgba(245, 158, 11, 0.8);
+  box-shadow: 0 10px 25px -5px rgba(220, 38, 38, 0.5), 0 0 15px rgba(245, 158, 11, 0.25);
 }

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -9,20 +9,20 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "PRAMESA INSTITUTE - Lembaga Publikasi Ilmiah & Konsultan Akademik",
+  title: "LUMINA PUBLISHER - Lembaga Publikasi Ilmiah & Konsultan Akademik",
   description: "Layanan publikasi jurnal nasional & internasional, buku, dan HKI profesional terbaik.",
-  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "PRAMESA INSTITUTE"],
-  authors: [{ name: "PRAMESA INSTITUTE" }],
+  keywords: ["Jurnal", "Publikasi", "HKI", "Buku", "LUMINA PUBLISHER"],
+  authors: [{ name: "LUMINA PUBLISHER" }],
   icons: {
-    icon: "/images/logobaru.png",
+    icon: "/images/LOGOBARUNEW.png",
   },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://pramesainstitute.com",
-    title: "PRAMESA INSTITUTE - Premium Publishing",
+    url: "https://luminapublisher.com",
+    title: "LUMINA PUBLISHER - Premium Publishing",
     description: "Layanan publikasi terbaik untuk kebutuhan akademik dan profesional.",
-    siteName: "PRAMESA INSTITUTE",
+    siteName: "LUMINA PUBLISHER",
   },
   robots: {
     index: true,

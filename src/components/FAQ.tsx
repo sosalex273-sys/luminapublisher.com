@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { faqs } from "@/data/faq";
@@ -19,7 +19,7 @@ export const FAQ = () => {
               Pertanyaan yang Sering Diajukan
             </h2>
             <p className="text-sm md:text-lg text-slate-600 mb-8">
-              Temukan jawaban cepat untuk pertanyaan umum seputar layanan publikasi dan HKI di PRAMESA INSTITUTE.
+              Temukan jawaban cepat untuk pertanyaan umum seputar layanan publikasi dan HKI di LUMINA PUBLISHER.
             </p>
           </motion.div>
 
